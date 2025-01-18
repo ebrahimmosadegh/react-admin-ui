@@ -1,9 +1,16 @@
+import { Link } from "react-router-dom"
 import "./menu.scss"
 
 const Menu = () => {
   return (
     <div className='menu'>
-      menu
+      <div className="item">
+        <span className="title">MAIN</span>
+        <Link to="/">
+          <img src="/home.svg" alt="" />
+          <span className="listItemTitle">Home</span>
+        </Link>
+      </div>
     </div>
   )
 }
