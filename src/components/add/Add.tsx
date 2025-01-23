@@ -1,5 +1,5 @@
 import { GridColDef } from "@mui/x-data-grid";
-import "./addUser.scss";
+import "./add.scss";
 import React from "react";
 
 
@@ -8,7 +8,7 @@ type Props = {
     columns:GridColDef[];
     setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const AddUser = (props:Props) => {
+const Add = (props:Props) => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -16,7 +16,7 @@ const AddUser = (props:Props) => {
         // axios.post(`/api/${slug}s`, {})
     }
   return (
-    <div className="addUser">
+    <div className="add">
       <div className="modal">
         <span className="colse" onClick={()=>props.setOpen(false)}>X</span>
         <h1>Add new {props.slug}</h1>
@@ -36,4 +36,4 @@ const AddUser = (props:Props) => {
   )
 }
 
-export default AddUser
+export default Add
