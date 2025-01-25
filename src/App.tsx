@@ -11,6 +11,8 @@ import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
 import "./styles/global.scss";  
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
 
 function App() {
 
@@ -46,9 +48,17 @@ function App() {
           element:<Users />
         },
         {
+          path:"/users/:id",
+          element:<User />
+        },
+        {
           path:"/products",
           element:<Products />
-        }
+        },
+        {
+          path:"/products/:id",
+          element:<Product />
+        },
       ]  
     },
     {
