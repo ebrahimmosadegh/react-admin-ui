@@ -1,4 +1,4 @@
-![scrnli_2FQ8fC4N1K5Zo0](https://github.com/user-attachments/assets/43d220fd-17ec-40c6-a163-bdfe27c11769)
+![scrnli_Oe8YT3ADW74I37](https://github.com/user-attachments/assets/374c81f7-d11d-46b8-bc0d-f63f1c5cc844)
 
 show demo:
 https://react-admin-ui-ok.vercel.app/
